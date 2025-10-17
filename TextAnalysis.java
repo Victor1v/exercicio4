@@ -5,8 +5,8 @@ import java.net.http.HttpResponse.BodyHandlers;
 
 public class TextAnalysis {
     public static void main(String[] args) throws Exception {
-        String endpoint = "https://<SEU-ENDPOINT>.cognitiveservices.azure.com/";
-        String apiKey = "<SUA-CHAVE>";
+        String endpoint = "https://victor-puc-db.cognitiveservices.azure.com/";
+        String apiKey = "uUj0ztfpeDaGFQQS0YFsq4HrMTTolP4u";
 
         String url = endpoint + "text/analytics/v3.1/sentiment";
         String body = """
